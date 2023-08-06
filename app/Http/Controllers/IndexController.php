@@ -336,8 +336,9 @@ IndexController extends Controller
      ****/
     public function create_recipe_del($id)
     {
+//        dd(213);
         $Home_user_id =  session('Home_user_id');//user ID
-        if (empty($uid)){
+        if (empty($Home_user_id)){
             return redirect('/login')->with('message', 'Please log in first');
         }
         $data = Chat_content::where('id',$id)->where('user_id',$Home_user_id)->first();
