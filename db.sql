@@ -62,4 +62,3 @@ CREATE TABLE `week_recipe` (
 
 
 SET FOREIGN_KEY_CHECKS = 1;
-nutrigeniusnutrigenius
