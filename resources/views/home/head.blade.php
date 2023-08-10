@@ -57,13 +57,13 @@
 <div class="nav">
     <!--href="#":阻断a标签跳转刷新页面-->
     <ul>
-        <li style="pointer-events: none;"><img src="/home/images/logo.jpg" class="logo" alt=""></li>
+        <li style="pointer-events: none;"><img src="/Home/images/logo.jpg" class="logo" alt=""></li>
         <li><a href="/">Home</a></li>
         <li><a href="/form">Create your recipe</a></li>
         <li><a href="/create_recipe_list">Recipe list</a></li>
 
         @if(!empty(session('Home_user_name')))
-        <li style="margin-left: 580px">{{session('Home_user_name')}}</li>
+        <li style="margin-left: 550px">{{session('Home_user_name')}}</li>
             <a href="/log_out"><li style="margin-left: 30px">Log out</li></a>
         @else
         <li style="margin-left: 650px"><a href="/login">Log In</a></li>
