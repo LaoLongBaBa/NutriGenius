@@ -76,9 +76,6 @@
                     TotalWeight：{{$chat_data['api_edamam_data']['totalWeight']}}
                 </p>
                 <p>       {{$chat_data['api_edamam_data']['totalNutrients']['FAT']['label']}}:  {{$chat_data['api_edamam_data']['totalNutrients']['FAT']['quantity']}} {{$chat_data['api_edamam_data']['totalNutrients']['FAT']['unit']}}</p>
-                <p>       {{$chat_data['api_edamam_data']['totalNutrients']['FATRN']['label']}}:  {{$chat_data['api_edamam_data']['totalNutrients']['FATRN']['quantity']}} {{$chat_data['api_edamam_data']['totalNutrients']['FATRN']['unit']}}</p>
-                <p>       {{$chat_data['api_edamam_data']['totalNutrients']['CHOCDF']['label']}}:  {{$chat_data['api_edamam_data']['totalNutrients']['CHOCDF']['quantity']}} {{$chat_data['api_edamam_data']['totalNutrients']['CHOCDF']['unit']}}</p>
-                <p>       {{$chat_data['api_edamam_data']['totalNutrients']['CHOCDF.net']['label']}}:  {{$chat_data['api_edamam_data']['totalNutrients']['CHOCDF.net']['quantity']}} {{$chat_data['api_edamam_data']['totalNutrients']['CHOCDF.net']['unit']}}</p>
                 <p>       {{$chat_data['api_edamam_data']['totalNutrients']['FIBTG']['label']}}:  {{$chat_data['api_edamam_data']['totalNutrients']['FIBTG']['quantity']}} {{$chat_data['api_edamam_data']['totalNutrients']['FIBTG']['unit']}}</p>
                 <p>       {{$chat_data['api_edamam_data']['totalNutrients']['SUGAR']['label']}}:  {{$chat_data['api_edamam_data']['totalNutrients']['SUGAR']['quantity']}} {{$chat_data['api_edamam_data']['totalNutrients']['SUGAR']['unit']}}</p>
                 <p>       {{$chat_data['api_edamam_data']['totalNutrients']['PROCNT']['label']}}:  {{$chat_data['api_edamam_data']['totalNutrients']['PROCNT']['quantity']}} {{$chat_data['api_edamam_data']['totalNutrients']['PROCNT']['unit']}}</p>
