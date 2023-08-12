@@ -54,7 +54,7 @@
                 <p>       {{$chat_data['api_edamam_data']['totalDaily']['PROCNT']['label']}}:  {{$chat_data['api_edamam_data']['totalDaily']['PROCNT']['quantity']}}   {{$chat_data['api_edamam_data']['totalDaily']['PROCNT']['unit']}} </p>
                 <br>
                 <br>
-                <p style="margin-top: 25px">
+                <p style="margin-top: -15px">
                     <a href="/create_week_recipe/{{$chat_data['id']}}">  <button class="btn btn-block btn-lg btn-primary mt-2"  style="background-color: 	#000;border: 0;width: 70%"><b>Obtain a weekly recipe</b></button></a>
                     <a href="/create_recipe_list">  <button class="btn btn-block btn-lg btn-primary mt-2"  style="background-color: 	#000;border: 0;width: 70%"><b>Recipe list</b></button></a>
                 </p>
